@@ -16,8 +16,6 @@ import Bca from "./Components/Bca.js";
 import Bba from "./Components/Bba.js";
 import Bcom from "./Components/bcom.js";
 import Mcom from "./Components/Mcom.js";
-import Sign_in from "./Components/Sign_in.js";
-import Login from "./Components/Login.js";
 import Academics from "./Components/Academics.js";
 
 function App() {
@@ -37,8 +35,7 @@ function App() {
           <Route path="/bba" element={<Bba />} />
           <Route path="/bcom" element={<Bcom />} />
           <Route path="/mcom" element={<Mcom />} />
-          <Route path="/sign_in" element={<Sign_in />} />
-          <Route path="/login" element={<Login />} />
+          
         </Routes>
       </Router>
     </>
